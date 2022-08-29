@@ -3,6 +3,7 @@ body {
 }
 
 * {
+  -webkit-tap-highlight-color: transparent;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -632,7 +633,6 @@ header .container .main-links .other:hover .mega-menu {
   .features .box .image::after {
     border-width: 0 0 190px 700px;
   }
-
   .features .box:hover .image::after {
     border-width: 190px 700px 190px 0;
   }
@@ -1317,7 +1317,6 @@ header .container .main-links .other:hover .mega-menu {
   .video .container {
     flex-wrap: wrap;
   }
-
   .video .container aside {
     width: 100%;
   }
@@ -1491,7 +1490,6 @@ header .container .main-links .other:hover .mega-menu {
     flex-basis: 100%;
     margin-bottom: 30px;
   }
-
   .discount .form {
     flex-basis: 100%;
   }
@@ -1500,7 +1498,6 @@ header .container .main-links .other:hover .mega-menu {
   .discount .contant h2 {
     font-size: 32px;
   }
-
   .discount .image img {
     width: 250px;
   }
@@ -1783,5 +1780,10 @@ header .container .main-links .other:hover .mega-menu {
   }
   100% {
     transform: rotate(0deg);
+  }
+}
+@media (max-width: 768px) {
+  * {
+    cursor: default !important;
   }
 }/*# sourceMappingURL=main.css.map */

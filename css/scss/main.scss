@@ -4,6 +4,7 @@ body {
 }
 
 * {
+  -webkit-tap-highlight-color: transparent;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1831,5 +1832,10 @@ header {
   }
   100% {
     transform: rotate(0deg);
+  }
+}
+@media (max-width: 768px) {
+  * {
+    cursor: default !important;
   }
 }
